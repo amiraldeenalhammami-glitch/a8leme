@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Cairo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-rw-blue: #00A1DE;
+  --color-rw-yellow: #FAD201;
+  --color-rw-green: #20603D;
+  --color-primary: #00A1DE;
+  --color-accent: #FAD201;
+  --color-success: #20603D;
+  
+  --animate-gradient: gradient 4s linear infinite;
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
+@layer base {
+  html {
+    direction: rtl;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-[#f0f4f8] text-slate-900 font-sans;
+  }
+}
+
+.infographic-card {
+  @apply p-8 rounded-[2.5rem] shadow-[0_10px_40px_-15px_rgba(0,0,0,0.05)] border border-slate-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-500;
+}
+
+.section-title {
+  @apply text-4xl font-black text-black mb-8 border-r-[12px] border-rw-yellow pr-8 leading-tight;
+}
+
+.chapter-badge {
+  @apply inline-block px-6 py-2 bg-rw-blue text-white text-sm font-bold rounded-full mb-6 uppercase tracking-widest shadow-lg shadow-rw-blue/20;
+}
+
+.data-table {
+  @apply w-full text-base text-right border-collapse overflow-hidden rounded-3xl shadow-sm;
+}
+
+.data-table th {
+  @apply bg-rw-green text-white p-5 font-bold text-lg;
+}
+
+.data-table td {
+  @apply p-5 border-b border-slate-50 bg-white text-slate-700;
+}
+
+.swot-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+}
+
+.swot-item {
+  @apply p-8 rounded-[3rem] border-4 shadow-xl relative overflow-hidden;
+}
+
+.swot-s { @apply bg-emerald-50 border-emerald-500/20 text-emerald-950; }
+.swot-w { @apply bg-amber-50 border-amber-500/20 text-amber-950; }
+.swot-o { @apply bg-sky-50 border-sky-500/20 text-sky-950; }
+.swot-t { @apply bg-rose-50 border-rose-200 text-rose-950; }
+
+.glass-panel {
+  @apply bg-white/90 backdrop-blur-xl border border-white/40 shadow-2xl;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-rw-blue via-rw-green to-rw-blue animate-gradient;
+  background-size: 200% auto;
+}
