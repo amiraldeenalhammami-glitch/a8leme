@@ -168,7 +168,7 @@ export default function App() {
                 <div>
                   <p className="text-rw-blue font-black text-xs mb-1 uppercase tracking-[0.2em]">بإشراف الأستاذ الدكتور</p>
                   <p className="text-2xl font-black text-black">حيان سفور</p>
-                  <p className="text-black font-extrabold">أستاذ في قسم التخطيط والبيئة</p>
+                  <p className="text-black font-extrabold">عميد المعهد العالي للتخطيط الاقليمي</p>
                 </div>
               </div>
             </div>
