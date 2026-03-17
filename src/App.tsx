@@ -101,6 +101,41 @@ export default function App() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
+            <div className="flex flex-wrap justify-center gap-4 mb-12">
+              <a 
+                href="https://drive.google.com/file/d/1HR0DTsYtGeAbDX5PlwYvHju64jYg8Uhm/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-white text-rw-blue font-black rounded-2xl shadow-2xl hover:bg-rw-yellow hover:text-rw-green transition-all duration-300 flex items-center gap-2 text-lg border-2 border-white/20"
+              >
+                <FileText className="w-6 h-6" /> البحث الأكاديمي
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/1yjovPTqWLSzledDU9HJAoHfC2i7U_tdb/view?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-rw-yellow text-rw-green font-black rounded-2xl shadow-2xl hover:bg-white hover:text-rw-blue transition-all duration-300 flex items-center gap-2 text-lg border-2 border-white/20"
+              >
+                <Map className="w-6 h-6" /> بوستر رواندا الأول
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/1YyEdE_d3aLoG9ncg8T5lg3nQ4Y9qssXs/view?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-rw-yellow text-rw-green font-black rounded-2xl shadow-2xl hover:bg-white hover:text-rw-blue transition-all duration-300 flex items-center gap-2 text-lg border-2 border-white/20"
+              >
+                <Map className="w-6 h-6" /> بوستر رواندا الثاني
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/1UG2q3GKPfsAzKSbdvUCSMf3C1NUGrDuF/view?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-rw-green text-white font-black rounded-2xl shadow-2xl hover:bg-rw-yellow hover:text-rw-green transition-all duration-300 flex items-center gap-2 text-lg border-2 border-white/20"
+              >
+                <BookOpen className="w-6 h-6" /> المراجع الاكاديمية
+              </a>
+            </div>
+
             <div className="flex justify-center gap-4 mb-8">
               <span className="px-6 py-2 bg-rw-yellow text-rw-green rounded-full text-sm font-black border-2 border-white/20 shadow-xl">بحث الدراسات العليا</span>
               <span className="px-6 py-2 bg-white/20 text-white rounded-full text-sm font-bold backdrop-blur-md border border-white/30">قسم التخطيط والبيئة</span>
