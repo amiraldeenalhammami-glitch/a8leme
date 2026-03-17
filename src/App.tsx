@@ -127,7 +127,7 @@ export default function App() {
                 <Map className="w-6 h-6" /> بوستر رواندا الثاني
               </a>
               <a 
-                href="https://drive.google.com/file/d/1UG2q3GKPfsAzKSbdvUCSMf3C1NUGrDuF/view?usp=drive_link" 
+                href="https://drive.google.com/drive/folders/13Ibl1j541Q3SEOyGGtuWCzD591KfP8n5?usp=drive_link" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-rw-green text-white font-black rounded-2xl shadow-2xl hover:bg-rw-yellow hover:text-rw-green transition-all duration-300 flex items-center gap-2 text-lg border-2 border-white/20"
@@ -137,7 +137,7 @@ export default function App() {
             </div>
 
             <div className="flex justify-center gap-4 mb-8">
-              <span className="px-6 py-2 bg-rw-yellow text-rw-green rounded-full text-sm font-black border-2 border-white/20 shadow-xl">بحث الدراسات العليا</span>
+              <span className="px-6 py-2 bg-rw-yellow text-rw-green rounded-full text-sm font-black border-2 border-white/20 shadow-xl">التخطيط الاقليمي</span>
               <span className="px-6 py-2 bg-white/20 text-white rounded-full text-sm font-bold backdrop-blur-md border border-white/30">قسم التخطيط والبيئة</span>
             </div>
             
@@ -380,6 +380,27 @@ export default function App() {
           <div>
             <div className="chapter-badge">الفصل الثالث</div>
             <h2 className="section-title">تجربة رواندا: التخطيط المكاني كأداة للمصالحة والنهوض</h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-slate-200">
+              <img 
+                src="https://drive.google.com/thumbnail?id=1A8SzIn4HZ7oaNVbjV_msnsUQT-yxFT5g&sz=w1200" 
+                alt="Rwanda Experience Right" 
+                className="w-full h-auto block"
+                referrerPolicy="no-referrer"
+                loading="lazy"
+              />
+            </div>
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-slate-200">
+              <img 
+                src="https://drive.google.com/thumbnail?id=1gssmEH0HZLQXo1JrTRS12VsqFEFEwlBm&sz=w1200" 
+                alt="Rwanda Experience Left" 
+                className="w-full h-auto block"
+                referrerPolicy="no-referrer"
+                loading="lazy"
+              />
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
